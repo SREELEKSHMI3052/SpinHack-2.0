@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Check AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vibe Check AI</h1>
+        
+        <form id="vibe-form">
+            <input type="text" id="mood-input" placeholder="How are you feeling right now?" required>
+            <button type="submit" id="submit-btn">Generate</button>
+        </form>
+
+        <p id="loading-text" class="hidden">Consulting the AI...</p>
+
+        <div class="feed" id="feed-container">
+            <h2>Recent Vibes</h2>
+            <div id="vibes-list">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
